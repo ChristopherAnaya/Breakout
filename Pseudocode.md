@@ -6,7 +6,7 @@
     #Start game loop
     While Running:
         Display current score and level
-        Spawn 150 blocks
+        Spawn 90 blocks
         Spawn player
         Spawn ball
         Block health = level divided by 5 no remainder + 1
