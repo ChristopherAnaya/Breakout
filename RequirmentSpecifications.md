@@ -6,7 +6,7 @@
 - Date: [11/14/2024]
 
 ## Game Overview
- The goal of the game is to beat as many levels as possible as they increase in difficulty. You destroy blocks using a ball that bounces off the player charter below. every level it gets faster and every five levels it takes one more hit per block. The user also has access to powerups to help them
+ The goal of the game is to beat as many levels as possible as they increase in difficulty. You destroy blocks using a ball that bounces off the player charter below. every three levels it gets faster and every five levels it takes one more hit per block. The user also has access to powerups to help them such as frezzing, slowdown, double size etc.
 
 ## Functional Requirements
  **Core Features**
