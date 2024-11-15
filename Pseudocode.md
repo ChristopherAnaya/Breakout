@@ -23,7 +23,7 @@
             specific block health - 1
             if specific block health is equal to 0:
                 destroy that block
-                score += 1o
+                score += 10
                 spawn power up if user gets lucky
                 powerup down speed set to 1
         
