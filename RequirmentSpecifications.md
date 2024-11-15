@@ -28,7 +28,7 @@
 
  **Cross-Platform Compatibility**
 
- The games will work on pc and mobile because it only uses tap/click controls.
+ The games will work on pc only due to its wide format.
 
 ## Design Requirements
  **Graphics and Visuals** 
