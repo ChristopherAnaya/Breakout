@@ -1,0 +1,11 @@
+| **Test Case**         | **Test Data**                      | **Expected Outcome**                                                                 |
+|-----------------------|-----------------------------------|-------------------------------------------------------------------------------------|
+| **Player Movement** | Left click | Player moves to x coordinate, stops before the boundary if x coordinate would cause the player to go out of bounds  |
+| **Loading & Game Over Screens** | User Clicks | Movement of powerups & balls should stop. User clicks should not move the player. Buttons will lead to the correct screens.|
+| **Score** | Number | Score begins at 0 and increases by 10 which each block destroyed. If the score is higher than the previous it is saved as the new high score. Reset to 0 when a user begins at level 1|
+| **Level** | Number | Level starts at 1 and increases by 1 after each block is destroyed. All blocks are put back each level and if level is divisible by 5 increase block health by 1.|
+| **Block Health** | Number| Block health starts at 1 and every 5 levels (5, 10 etc) is increased by 1. When colding with a ball health -1. If hea;th is 0 delete block and have a small chance to spawn a powerup with a -1 y speed and 0 x speed.|
+| **Collison** | Ball Collides | If the ball collides with the left or right wall reverse x speed. If the ball collides with the player, top wall, or bottom of block reverse y speed. If ball collides with bottom wall delete the ball|
+| **Game over** | No balls left | If no balls left display game over screen and freeze all objects |
+| **Ball Speed** | Increase Speed | Ball speed starts at 1 and increases every 3 levels (3,6,9 etc). resets to 1 at level 1 |
+| **Powerups** | User Gets A Powerup | If the powerup is double spawn a second ball at each current ball location gives all the new balls the reverse of the x speed. If freeze, freeze the movement of all objects except the player for 5 seconds. If large, increase the ball size by 2x for 15 seconds. If speedup increases ball speed bye x3 for 15 seconds. If slow down, decrease ball speed by x0.3.
