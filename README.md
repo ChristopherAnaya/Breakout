@@ -8,7 +8,7 @@ Installation Instructions:
 2. Navigate to the folder containing the game files.
 3. Run the BreakoutPowerUp.exe file (or use your preferred IDE to run the Python script).
 4. Ensure you have Python 3.x installed with the necessary libraries like pygame.
-5. You can install dependencies by running: pip install -r requirements.txt
+5. You can install dependencies by running:
 
 
 Usage Instructions:
